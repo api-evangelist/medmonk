@@ -1,7 +1,26 @@
 aid: medmonk
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/medmonk.png
 name: Medmonk
-description: Medmonk is a company surfaced as a portfolio company of a16z, y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Medmonk is a pharma market access platform that connects brand teams,
+  healthcare providers, pharmacies, and patients on a single real-time infrastructure.
+  It automates point-of-sale copay enrollment, benefit investigations, prior authorizations,
+  financial assistance, hub workflows, and adherence tracking across specialty and
+  rare-disease medications, reaching roughly 98% of U.S. pharmacy and buy/bill network
+  connectivity. Medmonk states it exposes FHIR-compliant APIs to integrate with existing
+  EHR, CRM, and pharmacy systems, and claims SOC 2, HIPAA, and GDPR compliance, though
+  it publishes no public developer portal or API documentation. Founded in the Y Combinator
+  W12 batch.
 url: https://raw.githubusercontent.com/api-evangelist/medmonk/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +31,44 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Pharma Market Access
+- FHIR
+- Medication Adherence
+- Copay Assistance
+- Prior Authorization
+- Interoperability
+- HIPAA
 apis: []
+common:
+- type: DomainSecurity
+  url: security/medmonk-domain-security.yml
+- type: Website
+  url: https://medmonk.com/
+- type: Blog
+  url: https://medmonk.com/news/
+- type: Support
+  url: https://medmonk.com/contact-us/
+- type: PrivacyPolicy
+  url: https://www.medmonk.com/PrivacyPolicy
+- type: TermsOfService
+  url: https://medmonk.com/TermsAndConditions
+- type: Compliance
+  url: https://medmonk.com/technology-solutions/
+- type: Conformance
+  url: conformance/medmonk-conformance.yml
+- type: LLMsTxt
+  url: llms/medmonk-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
