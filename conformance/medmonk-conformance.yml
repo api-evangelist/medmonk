@@ -1,0 +1,26 @@
+generated: '2026-07-20'
+method: searched
+source: https://medmonk.com/technology-solutions/
+notes: >-
+  Standards asserted from Medmonk's public marketing and technology pages. Medmonk
+  publishes no OpenAPI or developer documentation, so these are provider claims, not
+  spec-verified conformance. FHIR is stated as the interoperability model for their
+  EHR/CRM/pharmacy integrations; SOC 2, HIPAA, and GDPR are stated on the technology
+  solutions page.
+standards:
+- id: fhir
+  conforms: true
+  evidence: "Technology page states 'FHIR-compliant APIs' for interoperability with EHR, pharmacy, and CRM systems."
+  source: https://medmonk.com/technology-solutions/
+- id: soc2
+  conforms: true
+  evidence: "Stated 'SOC 2 - Independently audited security controls covering availability, confidentiality, and data integrity.'"
+  source: https://medmonk.com/technology-solutions/
+- id: hipaa
+  conforms: true
+  evidence: "Stated 'Full HIPAA compliance with end-to-end encryption and role-based access controls across all data.'"
+  source: https://medmonk.com/technology-solutions/
+- id: gdpr
+  conforms: true
+  evidence: "Stated 'Data governance frameworks aligned with global privacy regulations.'"
+  source: https://medmonk.com/technology-solutions/

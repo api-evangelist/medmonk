@@ -1,0 +1,21 @@
+# Medmonk
+
+> Medmonk is a pharma market access platform that connects brand teams, healthcare providers, pharmacies, and patients on a single real-time infrastructure. It automates point-of-sale copay enrollment, benefit investigations, prior authorizations, financial assistance, hub workflows, and adherence tracking across specialty and rare-disease medications, reaching roughly 98% of U.S. pharmacy and buy/bill network connectivity.
+
+Medmonk states it exposes FHIR-compliant APIs to integrate with existing EHR, CRM, and pharmacy systems, and claims SOC 2, HIPAA, and GDPR compliance. No public developer portal, API documentation, or OpenAPI is published; integration is arranged via the technical/sales team. Founded in the Y Combinator W12 batch (Itasca, IL).
+
+## Company
+- [Home](https://medmonk.com/)
+- [Product](https://www.medmonk.com/Product)
+- [Technology Solutions](https://medmonk.com/technology-solutions/)
+- [About Us](https://medmonk.com/about-us/)
+- [News](https://medmonk.com/news/)
+- [Careers](https://medmonk.com/careers/)
+- [Contact / Talk to Tech Team](https://medmonk.com/contact-us/)
+
+## Compliance
+- [Technology Solutions (SOC 2, HIPAA, GDPR, FHIR)](https://medmonk.com/technology-solutions/)
+
+## Legal
+- [Privacy Policy](https://www.medmonk.com/PrivacyPolicy)
+- [Terms & Conditions](https://medmonk.com/TermsAndConditions)
